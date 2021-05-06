@@ -1,4 +1,3 @@
-//console.log("foi!!");
 // Função que pega a URL da API
 function getURL(url) {
   let request = new XMLHttpRequest();
@@ -42,18 +41,14 @@ function test() {
   let data = getURL("https://api.randomuser.me/?results=" + resultAmount);
   let results = JSON.parse(data);
   let table = document.getElementById("table");
-  //console.log(results.results);
 
   results.results.forEach(element => {
     let line = createLine(element);
     table.appendChild(line);
-    //console.log(element);
   });
-  //resultAmount += 10;
+
   console.log(resultAmount);
-  //location.reload();
-  //alert(resultAmount);
-}
+};
 
 // Função principal
 function main() {
@@ -64,12 +59,10 @@ function main() {
   let data = getURL("https://api.randomuser.me/?results=" + resultAmount);
   let results = JSON.parse(data);
   let table = document.getElementById("table");
-  //console.log(results.results);
 
   results.results.forEach(element => {
     let line = createLine(element);
     table.appendChild(line);
-    //console.log(element);
   });
 };
 
