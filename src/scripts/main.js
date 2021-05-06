@@ -21,7 +21,7 @@ function createLine(results) {
   tdImage.src = results.picture.large;
   tdFirstName.innerHTML = results.name.first;
   tdLastName.innerHTML = results.name.last;
-  tdAge.innerHTML = results.registered.age;
+  tdAge.innerHTML = results.dob.age;
   tdCity.innerHTML = results.location.city;
 
   // Adciona ao HTML
