@@ -19,7 +19,7 @@ div.content {
   line-height: 30px;
   padding: 15px;
 
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 
   background-color: #ffff;
   border-radius: 4px;
@@ -86,7 +86,7 @@ button {
   
   color: #ffff;
   background-color: #55038C;
-
+  
   font-weight: 700;
   font-size: 16px;
 }
@@ -95,4 +95,9 @@ button:hover {
   cursor: pointer;
   background-color: #814BA6;
   transition: 0.5s;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
