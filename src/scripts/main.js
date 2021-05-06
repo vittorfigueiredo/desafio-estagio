@@ -36,7 +36,7 @@ function createLine(results) {
 // Função para carregar mais resultados
 function more() {
   // Variavel usada para carregar mais resultados quando apertar o botao
-  resultAmount += 10 - 10;
+  resultAmount = 10;
   // Salva a url na variavel data
   let data = getURL("https://api.randomuser.me/?results=" + resultAmount);
   let results = JSON.parse(data);
